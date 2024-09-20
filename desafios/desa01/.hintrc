@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[allow]"
+        ]
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "list": "off",
+        "listitem": "off"
+      }
+    ],
+    "button-type": "off",
+    "disown-opener": "off"
+  }
+}
